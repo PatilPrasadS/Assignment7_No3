@@ -10,5 +10,8 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'Problem2';
+  
+  public fun() : string {
+    return "Marvellous Infosystem";
+  }
 }
